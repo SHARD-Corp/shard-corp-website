@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SHARD Corp — Gaming. Technology. Innovation.</title>
+<meta name="description" content="SHARD Corp builds ambitious products, platforms and communities for the gaming ecosystem.">
+<style>
+:root{--bg:#050709;--panel:#0a0e12;--text:#f4f7fb;--muted:#89929d;--blue:#078cff;--line:#18212a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 50% 20%,#0b1722 0,#050709 35%,#030405 100%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:64px 64px;mask-image:linear-gradient(to bottom,black,transparent 80%)}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}
+nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid rgba(255,255,255,.06)}
+.brand{font-weight:800;letter-spacing:.18em}.brand span{color:var(--blue)}.navlinks{display:flex;gap:30px;color:#aab2bb;font-size:14px}.navlinks a:hover{color:white}
+.hero{min-height:700px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px}
+.eyebrow{color:#55adff;text-transform:uppercase;letter-spacing:.24em;font-size:12px;font-weight:700}
+h1{font-size:clamp(52px,7vw,94px);line-height:.92;letter-spacing:-.055em;margin:18px 0 24px;max-width:720px}
+h1 em{font-style:normal;color:transparent;-webkit-text-stroke:1px #7e8a96}
+.lead{max-width:600px;color:#9ca5af;font-size:18px;line-height:1.7}
+.actions{display:flex;gap:12px;margin-top:34px}.btn{padding:14px 20px;border:1px solid #26323d;border-radius:6px;font-size:14px;font-weight:700}.primary{background:#087ee2;border-color:#087ee2;box-shadow:0 0 35px rgba(0,137,255,.22)}.btn:hover{transform:translateY(-1px)}
+.logo-wrap{position:relative;display:flex;justify-content:center}.glow{position:absolute;width:60%;height:60%;top:20%;background:#087ee2;filter:blur(110px);opacity:.18;border-radius:50%}.logo{position:relative;width:min(100%,540px);mix-blend-mode:screen;filter:drop-shadow(0 15px 50px rgba(0,0,0,.8))}
+section{padding:100px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:34px}.section-head h2{font-size:38px;margin:0;letter-spacing:-.03em}.section-head p{color:var(--muted);max-width:430px;line-height:1.6;margin:0}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{min-height:260px;padding:28px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(15,20,26,.92),rgba(5,7,9,.9));border-radius:10px;display:flex;flex-direction:column;justify-content:space-between;transition:.25s}.card:hover{border-color:#20517a;transform:translateY(-4px);box-shadow:0 15px 50px rgba(0,0,0,.25)}.num{font-size:12px;color:#3c9fff;letter-spacing:.15em}.card h3{font-size:25px;margin:0 0 8px}.card p{color:#818b95;line-height:1.55;margin:0}.tag{margin-top:24px;color:#c5ccd3;font-size:12px;text-transform:uppercase;letter-spacing:.14em}
+.manifesto{border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center}.manifesto h2{font-size:clamp(34px,5vw,64px);max-width:900px;margin:0 auto 20px;letter-spacing:-.045em}.manifesto p{color:#818b95}
+footer{padding:35px 0;color:#69737d;font-size:13px}.foot{display:flex;justify-content:space-between}.blue{color:#159cff}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;min-height:auto;padding:70px 0}.logo-wrap{grid-row:1}.logo{max-width:330px}.projects{grid-template-columns:1fr}.section-head{display:block}.section-head p{margin-top:15px}section{padding:70px 0}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="#">SHARD <span>CORP</span></a>
+  <div class="navlinks"><a href="#projects">Projects</a><a href="#vision">Vision</a><a href="https://github.com/" target="_blank">GitHub</a></div>
+</nav>
+
+<main>
+<section class="hero">
+  <div>
+    <div class="eyebrow">Gaming · Technology · Innovation</div>
+    <h1>WE BUILD<br><em>NEW WORLDS.</em></h1>
+    <p class="lead">SHARD Corp is a technology company creating products, platforms and communities built for the future of gaming.</p>
+    <div class="actions"><a class="btn primary" href="#projects">Explore projects</a><a class="btn" href="#vision">Our vision</a></div>
+  </div>
+  <div class="logo-wrap"><div class="glow"></div><img class="logo" src="shard-logo.png" alt="SHARD Corp logo"></div>
+</section>
+
+<section id="projects">
+  <div class="section-head"><h2>Our Projects</h2><p>Independent ideas. One ecosystem. Products designed around gaming, communities and technology.</p></div>
+  <div class="projects">
+    <article class="card"><span class="num">PROJECT / 01</span><div><h3>Fronteras</h3><p>Next-generation GTA VI Roleplay experience built around immersion and community.</p><div class="tag">GTA VI · ROLEPLAY</div></div></article>
+    <article class="card"><span class="num">PROJECT / 02</span><div><h3>ALDEN</h3><p>A next-generation Discord bot designed to power and simplify online communities.</p><div class="tag">DISCORD · AUTOMATION</div></div></article>
+    <article class="card"><span class="num">PROJECT / 03</span><div><h3>Aether Mods</h3><p>Video game mod development focused on expanding and transforming player experiences.</p><div class="tag">MODDING · DEVELOPMENT</div></div></article>
+  </div>
+</section>
+
+<section class="manifesto" id="vision">
+  <div class="eyebrow">Our Vision</div>
+  <h2>Building the next generation of <span class="blue">gaming.</span></h2>
+  <p>One shard at a time.</p>
+</section>
+</main>
+
+<footer><div class="foot"><span>© 2026 SHARD Corp.</span><span>All rights reserved.</span></div></footer>
+</div>
+</body>
+</html>
